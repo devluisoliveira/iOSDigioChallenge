@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830D3BAFDC089A0AE71C8145 /* Pods_DigioChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280C4D6F3AB8A6F4454D9A34 /* Pods_DigioChallenge.framework */; };
+		A064AB4D27C5F862003B0970 /* RowConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064AB4C27C5F862003B0970 /* RowConfiguration.swift */; };
+		A064AB5027C5FE59003B0970 /* SpotlightCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064AB4F27C5FE59003B0970 /* SpotlightCollectionCell.swift */; };
+		A064AB5327C68F49003B0970 /* CashCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064AB5227C68F49003B0970 /* CashCollectionCell.swift */; };
+		A064AB5527C6915A003B0970 /* ProductsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064AB5427C6915A003B0970 /* ProductsCollectionCell.swift */; };
+		A064AB5727C71555003B0970 /* CashHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064AB5627C71555003B0970 /* CashHeaderCell.swift */; };
+		A064AB5927C72A25003B0970 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064AB5827C72A25003B0970 /* DetailsViewController.swift */; };
+		A064AB6027C732FD003B0970 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064AB5F27C732FD003B0970 /* DetailsView.swift */; };
+		A070B3BA27BD90DC00BA7CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3B927BD90DC00BA7CF9 /* AppDelegate.swift */; };
+		A070B3BC27BD90DC00BA7CF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3BB27BD90DC00BA7CF9 /* SceneDelegate.swift */; };
+		A070B3BE27BD90DC00BA7CF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3BD27BD90DC00BA7CF9 /* ViewController.swift */; };
+		A070B3C127BD90DC00BA7CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A070B3BF27BD90DC00BA7CF9 /* Main.storyboard */; };
+		A070B3C327BD90DE00BA7CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A070B3C227BD90DE00BA7CF9 /* Assets.xcassets */; };
+		A070B3C627BD90DE00BA7CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A070B3C427BD90DE00BA7CF9 /* LaunchScreen.storyboard */; };
+		A070B3CE27BD914B00BA7CF9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3CD27BD914B00BA7CF9 /* HomeViewController.swift */; };
+		A070B3D727BE9D5C00BA7CF9 /* SpotlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3D627BE9D5C00BA7CF9 /* SpotlightCell.swift */; };
+		A070B3DC27BE9DB700BA7CF9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3D827BE9DB700BA7CF9 /* UIView.swift */; };
+		A070B3DD27BE9DB700BA7CF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3D927BE9DB700BA7CF9 /* Constants.swift */; };
+		A070B3DE27BE9DB700BA7CF9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3DA27BE9DB700BA7CF9 /* Extensions.swift */; };
+		A070B3DF27BE9DB700BA7CF9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3DB27BE9DB700BA7CF9 /* Utilities.swift */; };
+		A070B3E527C46D0E00BA7CF9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3E427C46D0E00BA7CF9 /* Service.swift */; };
+		A070B3E727C46DBE00BA7CF9 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3E627C46DBE00BA7CF9 /* ProductModel.swift */; };
+		A070B3E927C579C900BA7CF9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3E827C579C900BA7CF9 /* HomeView.swift */; };
+		A070B3EB27C5A9BB00BA7CF9 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3EA27C5A9BB00BA7CF9 /* ProductsCell.swift */; };
+		A070B3ED27C5ABE200BA7CF9 /* CashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070B3EC27C5ABE200BA7CF9 /* CashCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280C4D6F3AB8A6F4454D9A34 /* Pods_DigioChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigioChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99262128187E3D4D17ADAD49 /* Pods-DigioChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigioChallenge.release.xcconfig"; path = "Target Support Files/Pods-DigioChallenge/Pods-DigioChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		9986A9568CDED332786DF58A /* Pods-DigioChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigioChallenge.debug.xcconfig"; path = "Target Support Files/Pods-DigioChallenge/Pods-DigioChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		A064AB4C27C5F862003B0970 /* RowConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowConfiguration.swift; sourceTree = "<group>"; };
+		A064AB4F27C5FE59003B0970 /* SpotlightCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightCollectionCell.swift; sourceTree = "<group>"; };
+		A064AB5227C68F49003B0970 /* CashCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashCollectionCell.swift; sourceTree = "<group>"; };
+		A064AB5427C6915A003B0970 /* ProductsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionCell.swift; sourceTree = "<group>"; };
+		A064AB5627C71555003B0970 /* CashHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashHeaderCell.swift; sourceTree = "<group>"; };
+		A064AB5827C72A25003B0970 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A064AB5F27C732FD003B0970 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		A070B3B627BD90DC00BA7CF9 /* DigioChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigioChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A070B3B927BD90DC00BA7CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A070B3BB27BD90DC00BA7CF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A070B3BD27BD90DC00BA7CF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A070B3C027BD90DC00BA7CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A070B3C227BD90DE00BA7CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A070B3C527BD90DE00BA7CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A070B3C727BD90DE00BA7CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A070B3CD27BD914B00BA7CF9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A070B3D627BE9D5C00BA7CF9 /* SpotlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightCell.swift; sourceTree = "<group>"; };
+		A070B3D827BE9DB700BA7CF9 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		A070B3D927BE9DB700BA7CF9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A070B3DA27BE9DB700BA7CF9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A070B3DB27BE9DB700BA7CF9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A070B3E427C46D0E00BA7CF9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A070B3E627C46DBE00BA7CF9 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		A070B3E827C579C900BA7CF9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A070B3EA27C5A9BB00BA7CF9 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		A070B3EC27C5ABE200BA7CF9 /* CashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A070B3B327BD90DC00BA7CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830D3BAFDC089A0AE71C8145 /* Pods_DigioChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB8366A30EB9FDEB5B8E148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9986A9568CDED332786DF58A /* Pods-DigioChallenge.debug.xcconfig */,
+				99262128187E3D4D17ADAD49 /* Pods-DigioChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		810C064A80568ADCEE7557F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280C4D6F3AB8A6F4454D9A34 /* Pods_DigioChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A064AB4E27C5FE32003B0970 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				A064AB4F27C5FE59003B0970 /* SpotlightCollectionCell.swift */,
+				A064AB5227C68F49003B0970 /* CashCollectionCell.swift */,
+				A064AB5427C6915A003B0970 /* ProductsCollectionCell.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		A064AB5127C60592003B0970 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A070B3D627BE9D5C00BA7CF9 /* SpotlightCell.swift */,
+				A070B3EC27C5ABE200BA7CF9 /* CashCell.swift */,
+				A070B3EA27C5A9BB00BA7CF9 /* ProductsCell.swift */,
+				A064AB5627C71555003B0970 /* CashHeaderCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A070B3AD27BD90DC00BA7CF9 = {
+			isa = PBXGroup;
+			children = (
+				A070B3B827BD90DC00BA7CF9 /* DigioChallenge */,
+				A070B3B727BD90DC00BA7CF9 /* Products */,
+				5CB8366A30EB9FDEB5B8E148 /* Pods */,
+				810C064A80568ADCEE7557F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A070B3B727BD90DC00BA7CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A070B3B627BD90DC00BA7CF9 /* DigioChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A070B3B827BD90DC00BA7CF9 /* DigioChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				A070B3D527BD935800BA7CF9 /* Utils */,
+				A070B3D427BD934E00BA7CF9 /* Model */,
+				A070B3D327BD933700BA7CF9 /* API */,
+				A070B3D227BD932A00BA7CF9 /* View */,
+				A070B3D127BD932300BA7CF9 /* Controller */,
+				A070B3B927BD90DC00BA7CF9 /* AppDelegate.swift */,
+				A070B3BB27BD90DC00BA7CF9 /* SceneDelegate.swift */,
+				A070B3BD27BD90DC00BA7CF9 /* ViewController.swift */,
+				A070B3BF27BD90DC00BA7CF9 /* Main.storyboard */,
+				A070B3C227BD90DE00BA7CF9 /* Assets.xcassets */,
+				A070B3C427BD90DE00BA7CF9 /* LaunchScreen.storyboard */,
+				A070B3C727BD90DE00BA7CF9 /* Info.plist */,
+			);
+			path = DigioChallenge;
+			sourceTree = "<group>";
+		};
+		A070B3D127BD932300BA7CF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A070B3CD27BD914B00BA7CF9 /* HomeViewController.swift */,
+				A064AB5827C72A25003B0970 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A070B3D227BD932A00BA7CF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A064AB4E27C5FE32003B0970 /* Collections */,
+				A064AB5127C60592003B0970 /* Cells */,
+				A070B3E827C579C900BA7CF9 /* HomeView.swift */,
+				A064AB5F27C732FD003B0970 /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A070B3D327BD933700BA7CF9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A070B3E427C46D0E00BA7CF9 /* Service.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A070B3D427BD934E00BA7CF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A070B3E627C46DBE00BA7CF9 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A070B3D527BD935800BA7CF9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A070B3D927BE9DB700BA7CF9 /* Constants.swift */,
+				A070B3DA27BE9DB700BA7CF9 /* Extensions.swift */,
+				A070B3D827BE9DB700BA7CF9 /* UIView.swift */,
+				A070B3DB27BE9DB700BA7CF9 /* Utilities.swift */,
+				A064AB4C27C5F862003B0970 /* RowConfiguration.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A070B3B527BD90DC00BA7CF9 /* DigioChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A070B3CA27BD90DE00BA7CF9 /* Build configuration list for PBXNativeTarget "DigioChallenge" */;
+			buildPhases = (
+				575E8C219FCD2041ED9BB089 /* [CP] Check Pods Manifest.lock */,
+				A070B3B227BD90DC00BA7CF9 /* Sources */,
+				A070B3B327BD90DC00BA7CF9 /* Frameworks */,
+				A070B3B427BD90DC00BA7CF9 /* Resources */,
+				D353D86AAFE0ED6C9B4102B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigioChallenge;
+			productName = DigioChallenge;
+			productReference = A070B3B627BD90DC00BA7CF9 /* DigioChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A070B3AE27BD90DC00BA7CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A070B3B527BD90DC00BA7CF9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A070B3B127BD90DC00BA7CF9 /* Build configuration list for PBXProject "DigioChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A070B3AD27BD90DC00BA7CF9;
+			productRefGroup = A070B3B727BD90DC00BA7CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A070B3B527BD90DC00BA7CF9 /* DigioChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A070B3B427BD90DC00BA7CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070B3C627BD90DE00BA7CF9 /* LaunchScreen.storyboard in Resources */,
+				A070B3C327BD90DE00BA7CF9 /* Assets.xcassets in Resources */,
+				A070B3C127BD90DC00BA7CF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		575E8C219FCD2041ED9BB089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigioChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D353D86AAFE0ED6C9B4102B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigioChallenge/Pods-DigioChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigioChallenge/Pods-DigioChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigioChallenge/Pods-DigioChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A070B3B227BD90DC00BA7CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070B3BE27BD90DC00BA7CF9 /* ViewController.swift in Sources */,
+				A064AB4D27C5F862003B0970 /* RowConfiguration.swift in Sources */,
+				A064AB5027C5FE59003B0970 /* SpotlightCollectionCell.swift in Sources */,
+				A064AB5727C71555003B0970 /* CashHeaderCell.swift in Sources */,
+				A070B3DE27BE9DB700BA7CF9 /* Extensions.swift in Sources */,
+				A070B3BA27BD90DC00BA7CF9 /* AppDelegate.swift in Sources */,
+				A070B3D727BE9D5C00BA7CF9 /* SpotlightCell.swift in Sources */,
+				A070B3ED27C5ABE200BA7CF9 /* CashCell.swift in Sources */,
+				A070B3DC27BE9DB700BA7CF9 /* UIView.swift in Sources */,
+				A070B3BC27BD90DC00BA7CF9 /* SceneDelegate.swift in Sources */,
+				A070B3CE27BD914B00BA7CF9 /* HomeViewController.swift in Sources */,
+				A070B3E727C46DBE00BA7CF9 /* ProductModel.swift in Sources */,
+				A070B3E527C46D0E00BA7CF9 /* Service.swift in Sources */,
+				A070B3EB27C5A9BB00BA7CF9 /* ProductsCell.swift in Sources */,
+				A070B3E927C579C900BA7CF9 /* HomeView.swift in Sources */,
+				A064AB6027C732FD003B0970 /* DetailsView.swift in Sources */,
+				A070B3DF27BE9DB700BA7CF9 /* Utilities.swift in Sources */,
+				A064AB5527C6915A003B0970 /* ProductsCollectionCell.swift in Sources */,
+				A070B3DD27BE9DB700BA7CF9 /* Constants.swift in Sources */,
+				A064AB5327C68F49003B0970 /* CashCollectionCell.swift in Sources */,
+				A064AB5927C72A25003B0970 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A070B3BF27BD90DC00BA7CF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A070B3C027BD90DC00BA7CF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A070B3C427BD90DE00BA7CF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A070B3C527BD90DE00BA7CF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A070B3C827BD90DE00BA7CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A070B3C927BD90DE00BA7CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A070B3CB27BD90DE00BA7CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986A9568CDED332786DF58A /* Pods-DigioChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PPVYQPU5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigioChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliveira.luis.DigioChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A070B3CC27BD90DE00BA7CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99262128187E3D4D17ADAD49 /* Pods-DigioChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PPVYQPU5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigioChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliveira.luis.DigioChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A070B3B127BD90DC00BA7CF9 /* Build configuration list for PBXProject "DigioChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A070B3C827BD90DE00BA7CF9 /* Debug */,
+				A070B3C927BD90DE00BA7CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A070B3CA27BD90DE00BA7CF9 /* Build configuration list for PBXNativeTarget "DigioChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A070B3CB27BD90DE00BA7CF9 /* Debug */,
+				A070B3CC27BD90DE00BA7CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A070B3AE27BD90DC00BA7CF9 /* Project object */;
+}
